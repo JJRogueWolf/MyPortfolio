@@ -569,7 +569,8 @@ a:hover {
 
 /* PAGE LOADED */
 .page-loaded {
-  overflow: inherit;
+  overflow-y: inherit;
+  overflow-x: hidden;
 }
 .page-loaded .preloader {
   left: 100%;
@@ -1529,8 +1530,7 @@ a:hover {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  opacity: 0.1;
-  mix-blend-mode: luminosity;
+  opacity: 0.4;
 }
 
 /* WORKS */
