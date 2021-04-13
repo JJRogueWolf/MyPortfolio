@@ -1,0 +1,6 @@
+.textblack {
+  color : #000;
+}
+h4::before {
+  content: '';
+}

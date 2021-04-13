@@ -7364,11 +7364,11 @@ h4 {
 
 h4:before {
   content: '';
-  width: 144px;
+  width: 0px;
   margin-top: 10px;
   margin-right: 16px;
   height: 2px;
-  display: block;
+  display: none;
   float: left;
   background: #979797;
 }
