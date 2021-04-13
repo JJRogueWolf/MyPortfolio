@@ -1446,7 +1446,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  background: #000;
+  background: rgba(0, 0, 0, 0.411);
   position: fixed;
   left: 0;
   top: 0;
@@ -1458,7 +1458,6 @@ a:hover {
   position: absolute;
   left: 0;
   top: 0;
-  background: url(../images/lines.png);
   z-index: 1;
 }
 .page-header .inner {
