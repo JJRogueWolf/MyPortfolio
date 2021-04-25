@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="format-detection" content="telephone=no">
 <meta name="theme-color" content="#33a16e"/>
-<title>Unicord | Creative Portfolio for Freelancers & Agencies</title>
+<title>Jobin | My Portfolio</title>
 <meta name="author" content="Themezinho">
 <meta name="description" content="Unicord | Creative Portfolio for Freelancers & Agencies">
-<meta name="keywords" content="creative, works, showcase, portfolio, highlight, projects, parallax, agency, digital, studio, css, animation, transition, svg, html, css">
+<!-- <meta name="keywords" content="creative, works, showcase, portfolio, highlight, projects, parallax, agency, digital, studio, css, animation, transition, svg, html, css"> -->
 
 <!-- SOCIAL MEDIA META -->
-<meta property="og:description" content="Unicord | Creative Portfolio for Freelancers & Agencies">
+<meta property="og:description" content="Jobin | My Portfolio">
 <meta property="og:image" content="https://jjroguewolf.github.io/MyPortfolio/images/logo_white.png">
 <meta property="og:site_name" content="unicord">
 <meta property="og:title" content="Unicord">
@@ -20,10 +20,10 @@
 
 <!-- TWITTER META -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@unicord">
-<meta name="twitter:creator" content="@unicord">
-<meta name="twitter:title" content="unicord">
-<meta name="twitter:description" content="Unicord | Creative Portfolio for Freelancers & Agencies">
+<meta name="twitter:site" content="@jobin">
+<meta name="twitter:creator" content="@jobin">
+<meta name="twitter:title" content="jobin">
+<meta name="twitter:description" content="Jobin | My Portfolio">
 <meta name="twitter:image" content="https://jjroguewolf.github.io/MyPortfolio/images/logo_white.png">
 
 <!-- FAVICON FILES -->
@@ -39,21 +39,25 @@
 <link rel="stylesheet" href="css/swiper.min.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/customstyle.css">
+<link rel="stylesheet" type="text/css" href="css/core.css">
+<link rel="stylesheet" type="text/css" href="css/animsition.min.css">
+<link rel="stylesheet" type="text/css" href="css/elements.css">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
 <body>
-<div class="preloader">
-  <div class="inner">
-    <div class="loader">
-      <div class="trackbar">
-        <div class="loadbar"></div>
-      </div>
-    </div>
-    <!-- end loader -->
-    <div class="holder"> <span class="typewriter" id="typewriter"></span> </div>
-    <!-- end holder --> 
-  </div>
-  <!-- end inner --> 
-</div>
+<div id="loader" class="fh">
+	<section class="vcenter">
+		<div class="container">
+		<div class="indicator"> <span class="number">0</span><span class="unit">%</span>
+			<div class="loadbar">
+			<div class="inner"></div>
+			</div>
+		</div>
+		<div class="img-count"><span class="loaded"></span></div>
+		</div>
+	</section>
+	</div>
 <!-- end preloader -->
 <div class="transition-overlay">
   <div class="green-layer"></div>
@@ -106,5 +110,11 @@
 <script src='js/jquery.parallax.min.js'></script>  
 <script src='js/motion.blur.js'></script> 
 <script src="js/scripts.js"></script> 
+<script src="js/vendor.js"></script>
+<script src="js/vendor.js"></script>
+<script src="modules/titan-slider/titan-slider.js"></script>
+<script src="modules/tera-lightbox/tera-lightbox.js"></script>
+<script src="js/functions.js"></script>
+<script>$('#home-slider').titanSlider();</script>
 </body>
 </html>
