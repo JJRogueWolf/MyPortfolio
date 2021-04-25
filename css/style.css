@@ -1373,7 +1373,7 @@ a:hover {
   position: absolute;
   left: 0;
   top: 0;
-  background: url(../images/anim-hero.gif) center no-repeat #131313;
+  background: url(../images/cover.jpg) center no-repeat #131313;
 }
 .animation-bg .inner {
   display: inline-block;
@@ -1759,7 +1759,7 @@ a:hover {
 }
 .case-details h6 {
   font-weight: 300;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 34px;
   padding-right: 5%;
   margin-bottom: 20px;
